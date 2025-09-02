@@ -31,7 +31,7 @@ public abstract class User {
         User u3 = new GuestUser(3, "Carla", "carla@example.com", "abc789");
 
         boolean ok1 = u1.checkPassword("abc123"); 
-        boolean ok2 = u2.checkPassword("wrong");  
+        boolean ok2 = u2.checkPassword("wrong");   
         boolean ok3 = u3.checkPassword("abc789"); 
 
         System.out.println("ok1: " + ok1); 
